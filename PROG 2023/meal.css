@@ -1,0 +1,407 @@
+
+
+#title {
+    color: #91c789;
+    background-color: #DEF6D8;
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+    float: inline-start;
+    position: fixed;
+    left: 10%;
+    top: 2%;
+    }
+
+#dashboard {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    text-align: 30px right;
+    font-family: "Nunito", sans-serif;
+    float:left;
+    background-color: #DEF6D8;
+    position: fixed;
+    left: 30%;
+    top: 2%;
+}
+
+#mealCreator {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    text-align: 30px right;
+    font-family: "Nunito", sans-serif;
+    float:left;
+    background-color: #DEF6D8;
+    position: fixed;
+    left: 40%;
+    top: 2%;
+}
+
+#mealTracker {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    text-align: 30px right;
+    float:left;
+    background-color: #DEF6D8;
+    position: fixed;
+    left: 50%;
+    top: 2%;
+}
+
+#nutriReport{  
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    text-align: 30px right;
+    float:left;
+    background-color: #DEF6D8;
+    position: fixed;
+    left: 60%;
+    top: 2%;
+}
+
+#foodInspector{  
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    text-align: 30px right;
+    float:left;
+    background-color: #DEF6D8;
+    position: fixed;
+    left: 70%;
+    top: 2%;
+}
+
+#dash{
+    background-color:#DEF6D8;
+    width: 1480px;
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+#dashbox1 {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 4px;
+    border-color: #99D1De;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    bottom: 20%;
+    left: 10%;
+}
+
+#dashbox2 {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 4px;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    left: 30%;
+    bottom: 20%;
+}
+
+#dashbox3 {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 4px;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    left: 50%;
+    bottom: 20%;
+}
+
+#dashbox4 {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 4px;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    left: 70%;
+    bottom: 20%;
+}
+
+#mealtoday{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    left: 13%;
+    bottom: 40%;
+    background-color: #569BD5;
+}
+
+#energytoday{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    left: 30%;
+    bottom: 40%;
+    background-color: #569BD5;
+}
+
+#watertoday{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    left: 53%;
+    bottom: 40%;
+    background-color: #569BD5;
+}
+
+#proteintoday{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    left: 73%;
+    bottom: 40%;
+    background-color: #569BD5;
+}
+
+#indextitle{
+    position: fixed;
+    left: 5%;
+    bottom: 75%;
+}
+
+
+
+
+#mealbox{
+    width: 1000px;
+    height: 700px;
+    box-shadow: 1px 1px 1px 1px;
+    border-color: #569BD5;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    border-radius: 10px;
+}
+
+#mealtext{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    font-size:x-large;
+    font-family: "Nunito", sans-serif;
+}
+
+#mealtable{
+    position: fixed;
+    top: 30%;
+    left:26%;
+}
+
+#mealname{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    top: 40%;
+    left:0%;
+}
+
+#kcal{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 30%;
+}
+
+#addedon{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 40%;
+}
+
+#ingredients{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 50%;
+}
+
+#timeseaten{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 60%;
+}
+
+#btn {
+    padding: 13px 10px;
+    background:lightblue;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+#trackbox{
+    width: 1000px;
+    height: 700px;
+    box-shadow: 1px 1px 1px 1px;
+    border-color: #569BD5;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    border-radius: 10px;
+}
+
+#tracktext{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    font-size:x-large;
+    font-family: "Nunito", sans-serif;
+}
+
+#tracktable{
+    position: fixed;
+    top: 30%;
+    left:26%;
+}
+
+#mealsource{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    top: 40%;
+    left:0%;
+}
+
+#meal{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 30%;
+}
+
+#weightenergy{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 40%;
+}
+
+#addedtracker{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 50%;
+}
+
+#dailycons{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 60%;
+}
+
+
+
+
+#nutribox{
+    width: 1000px;
+    height: 700px;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    border-radius: 10px;
+}
+
+#nutritext{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    font-size:x-large;
+    font-family: "Nunito", sans-serif;
+}
+
+#nutritable{
+    position: fixed;
+    top: 30%;
+    left:26%;
+}
+
+#nutriname{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    top: 40%;
+    left:0%;
+}
+
+#mealsnutri{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 30%;
+}
+
+#water{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 40%;
+}
+
+#kcalconsumed{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 50%;
+}
+
+#protein{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 60%;
+}
+
+#fedt{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 70%;
+}
+
+#fiber{
+    font-family: "Nunito", sans-serif;
+    color: grey;
+    position: relative;
+    left: 80%;
+}

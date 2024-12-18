@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito">
+        <link rel="stylesheet" type="text/css" href="meal.css">
+        <script src="https://kit.fontawesome.com/33f86b5969.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="dash"> 
+        <h1 id="title"> NutriTracker 
+            <i class="fa-solid fa-carrot"></i></h1>
+        <h2 id="dashboard"> <a href="dashboard.html">Dashboard</a> </h2>
+        <h2 id="mealCreator" > <a href="mealCreator.html">Meal Creator</a></h2>
+        <h2 id="mealTracker"> <a href="mealTracker.html">Meal Tracker</a> </h2>
+        <h2 id="nutriReport"><a href="nutriTracker.html"> Nutri Report</a></h2>
+        <h2 id="foodInspector"><a href="foodInspector.html"> Food Inspector</a></h2></div>
+
+
+        <div id="mealbox"> <b id="mealtext">Meal Creator</b> 
+        <table id="mealtable">
+            <tr>
+                <th id="mealname">Meal Name</th>
+                <th id="kcal">Total Kcal pr. 100g</th>
+                <th id="addedon">Added on</th>
+                <th id="ingredients"># Ingredients</th>
+                <th id="timeseaten">Times Eaten</th>
+            </tr>
+         <div>
+            <input type="text" id="ingredientInput" placeholder="Add an ingredient">   
+        <button onclick="addIngredient()" id="btn"> Add ingredient</button>
+        <ul id="ingredientList"></ul>
+            </div>
+        <script src="meal.js"></script>
+            
+        </table> </div>
+    </body>
+</html>

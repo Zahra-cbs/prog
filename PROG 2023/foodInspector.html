@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="meal.css">
+    <script src="https://kit.fontawesome.com/33f86b5969.js" crossorigin="anonymous"></script>
+    <title>Food Inspector</title>
+</head>
+<body>
+    <div id="dash">
+        <h1 id="title">NutriTracker <i class="fa-solid fa-carrot"></i></h1>
+        <h2 id="dashboard"><a href="dashboard.html">Dashboard</a></h2>
+        <h2 id="mealCreator"><a href="mealCreator.html">Meal Creator</a></h2>
+        <h2 id="mealTracker"><a href="mealTracker.html">Meal Tracker</a></h2>
+        <h2 id="nutriReport"><a href="nutriTracker.html"> Nutri Report</a></h2>
+        <h2 id="foodInspector"><a href="foodInspector.html">Food Inspector</a></h2>
+    </div>
+
+    <div id="nutribox">
+        <h2 id="nutritext">Food Inspector</h2>
+        <input type="text" id="searchInput" placeholder="Search for food">
+        <button id="btn" onclick="searchFood()">Search</button>
+        <table id="nutritable">
+            <thead>
+                <tr>
+                    <th id="nutriname">Food Name</th>
+                    <th id="mealsnutri">Energy (kcal)</th>
+                    <th id="protein">Protein (g)</th>
+                </tr>
+            </thead>
+            <tbody id="foodResults"></tbody>
+        </table>
+    </div>
+
+    <script src="meal.js"></script>
+</body>
+</html>
